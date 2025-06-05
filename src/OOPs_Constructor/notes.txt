@@ -1,0 +1,11 @@
+1. its used to initialized an object when its create
+2. same name as class name
+3. not return type and void also
+4. Constructors can be overloading 
+		- can have the multiple constructors with different parameters
+5. Can not overriding the constructors 
+6. Can not inherited the constructors
+7. Java provides the default constructor 
+
+8. static and final not possible in the constructors
+9. 
