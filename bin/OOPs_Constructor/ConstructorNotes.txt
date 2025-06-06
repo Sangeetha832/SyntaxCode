@@ -1,0 +1,21 @@
+1. its used to initialized an object when its create
+2. same name as class name
+3. not return type and void also
+4. Constructors can be overloading 
+		- can have the multiple constructors with different parameters
+5. Can not overriding the constructors 
+6. Can not inherited the constructors
+7. Java provides the default constructor 
+
+8. static and final not possible in the constructors
+9. static is class level concern it cannot be work in the constructor
+10. final is fixed type, it initialize once so not works in the constructor
+
+11. this()
+		-it can access only current class constructor means the same class
+		-you can't use this() and super() in the same constructor, because both must be the first statement.
+		
+12. super()
+		- it used to call a constructor from parent class
+		- must be the first statement.
+		- parent constructor is properly initialized before child class constructor runs.

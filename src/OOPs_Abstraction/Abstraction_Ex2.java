@@ -30,7 +30,7 @@ class Television extends ElectronicDevice{
 
 	public Television(String brand) {
 		super(brand);
-		// TODO Auto-generated constructor stub
+		
 	}
 	void operate() {
 		System.out.println("watching TV");
@@ -40,7 +40,6 @@ class Television extends ElectronicDevice{
 class Smartphone extends ElectronicDevice{
 	public Smartphone(String brand) {
 		super(brand);
-		// TODO Auto-generated constructor stub
 	}
 
 	void operate() {

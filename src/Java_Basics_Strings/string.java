@@ -1,4 +1,4 @@
-package OOPs;
+package Java_Basics_Strings;
 
 public class string {
 public static void main(String[] args) {

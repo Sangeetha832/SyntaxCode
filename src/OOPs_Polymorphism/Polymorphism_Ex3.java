@@ -1,6 +1,6 @@
 package OOPs_Polymorphism;
 
-class Wild_Animal {
+class WildAnimal {
 	void eat() {
 		System.out.println("Animal eats");
 	}
@@ -16,7 +16,7 @@ class Wild_Animal {
 	
 }
 
-class Dog extends Wild_Animal {
+class Dog extends WildAnimal {
 	void eat() {
 		System.out.println("Dog is eating bones.");
 	}
@@ -24,12 +24,12 @@ class Dog extends Wild_Animal {
 
 public class Polymorphism_Ex3 {
 	public static void main(String[] args) {
-		Wild_Animal animal = new Wild_Animal();
+		WildAnimal animal = new WildAnimal();
 		animal.eat();
 		animal.eat("legs");
 		animal.eat("legs", "bones");
 		
-		Wild_Animal dog = new Dog();
+		WildAnimal dog = new Dog();
 		dog.eat();
 		dog.eat("dog: legs");
 		dog.eat("dog: legs", "dog: bones");

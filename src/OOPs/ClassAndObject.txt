@@ -1,0 +1,5 @@
+Class and Object:
+----------------
+Class is Template of an Objects that has state and behaviour. It's logical Entity.
+
+Object is instances of a class, its real-time entity that occupies memory and has the characteristic and behaviour defined by its class.

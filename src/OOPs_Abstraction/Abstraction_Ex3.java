@@ -11,14 +11,12 @@ class TextFile implements FileOperation{
 	private String filename;
 	@Override
 	public void openFile(String filename) {
-		// TODO Auto-generated method stub
 		this.filename = filename;
 		System.out.println("Opening text file: "+filename);
 	}
 
 	@Override
 	public void readFile() {
-		// TODO Auto-generated method stub
 		if(filename != null) {
 			System.out.println("Reading text file: "+filename);
 		}else {
@@ -28,7 +26,6 @@ class TextFile implements FileOperation{
 
 	@Override
 	public void writeFile(String data) {
-		// TODO Auto-generated method stub
 		if(filename != null) {
 			System.out.println("Writing to text file: "+filename+" with data "+data);
 		}else {
@@ -38,7 +35,6 @@ class TextFile implements FileOperation{
 
 	@Override
 	public void closeFile() {
-		// TODO Auto-generated method stub
 		System.out.println("Closing text file: "+filename);
 		filename = null;
 	}

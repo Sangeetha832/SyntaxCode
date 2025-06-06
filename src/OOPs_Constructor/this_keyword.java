@@ -7,7 +7,9 @@ class current{
 		System.out.println("non parameterized");
 	}
 	current(String msg){
+		super();
 		this.msg= msg;
+	
 		System.out.println("parameter constructor says: "+msg);
 	}
 }

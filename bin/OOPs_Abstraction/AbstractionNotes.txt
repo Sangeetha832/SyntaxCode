@@ -1,0 +1,27 @@
+Abstraction :
+
+	It shows only the essential things and hide the internal details. 
+	For example we do not know the internal process of the phone call.
+	We use abstract class and interface to achieve the abstraction.
+	
+Abstract class:
+	It cannot be instantiated.
+	The class is declared with abstract keyword is known as abstract class. 
+	it contains abstract method ( without body of the method) and non-abstract method(with body of the method).
+	it can have static and constructors methods also.
+	it can have final method to force not to change subclass methods.
+	
+	- may or may not have concrete and abstract method in abstract class 
+	- abstract classes enforce inheritance.
+	- abstract method enforce overriding.
+	
+	
+Interface:
+
+	interface have abstract method, 
+	default and static method (with body of the method)
+	private method 
+	class can have implemented multiple interfaces (like multiple inheritance via interfaces)
+	can't have constructors
+	
+	

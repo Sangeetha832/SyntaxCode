@@ -1,0 +1,13 @@
+Inheritance: - extends keyword
+-----------
+   A object acquires the all properties and behaviour of the parent class object is Inheritance. 
+   Its achieve the method overriding(runtime polymorphism).
+   Method Overriding it having same method name, parameter list and return type.
+
+Types of Inheritance:
+    Single Inheritance - subclass inherits only one superclass
+    Multilevel Inheritance - one subclass inherits from superclass, then another class inherits from that subclass.
+    Hierarchical Inheritance - multiple subclasses inherits from the one superclass.
+    Multiple Inheritance - not in java. using via interface
+
+- when ever the constructor calls from child obj, it also calls the parent class constructors. 

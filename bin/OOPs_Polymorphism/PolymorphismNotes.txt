@@ -1,0 +1,16 @@
+Polymorphism:
+-------------
+    Polymorphism means many forms. A single action can  achieve many form of the method with different parameters, different return type. 
+    The polymorphism achieve two methods are method overloading(compile time polymorphism) and method overriding(run time polymorphism).
+
+1.Method Overloading(compile time polymorphism)
+-----------------------
+    A single class have multiple method with same name but different list of parameters, different type of parameters. 
+    The complier determines method to called based on the argument passed during the method called at compile time.
+
+2. Method Overriding(Runtime Polymorphism)
+----------------------
+    Method Overriding is achieve in inherited from superclass. the method in the subclass have same method and 
+    signature like method name and parameters. The method is called at the runtime based on actual object type,
+    if the object is referred by a superclass references.
+

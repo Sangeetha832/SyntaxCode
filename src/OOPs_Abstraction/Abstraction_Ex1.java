@@ -17,7 +17,7 @@ class cow extends Ani{
 
 	public cow(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override
@@ -31,7 +31,6 @@ class goat extends Ani{
 
 	public goat(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

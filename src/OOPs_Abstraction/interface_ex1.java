@@ -19,6 +19,7 @@ class Book implements Printable {
 		System.out.println("Print book");
 	}
 	
+	
 	@Override
 	public void show() {
 		Printable.super.show();

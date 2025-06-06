@@ -1,0 +1,14 @@
+Lambda expression:
+	 takes a parameter
+	 return a values
+	 its simple shorter and easier
+	 its writing anonymous method or function with out name.
+ 
+ (parameter1, parameter2, ...) -> { body }
+ 
+ example:
+	 () -> System.out.println("Hello");              // No parameter
+	a -> a * a;                                     // Single parameter
+	(a, b) -> a + b;                                // Two parameters
+	(name) -> { System.out.println("Hi " + name); } // Code block
+ 	
